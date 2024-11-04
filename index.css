@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chicken-menu{
+    border:2px;
+    padding: 20px;
+    margin: 10px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(64, 63, 63);
+}
+#chicken{
+    text-align: right;
+    border-style: inset;
+    background-color: brown;
+}
+.beef-menu{
+    border:2px;
+    padding: 20px;
+    margin: 10px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    background-color:  rgb(64, 63, 63);
+}
+#beef{
+    text-align: right;
+    border-style: inset;
+    background-color: brown;
+}
+.sushi-menu{
+    border:2px;
+    padding: 20px;
+    margin: 10px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(64, 63, 63);
+}
+#sushi{
+    text-align: right;
+    border-style:inset;
+    background-color: brown;
+}
+
+
+
+@media(min-width:992px){
+    .chicken-menu{
+        float:left;
+        width:32%;
+        box-sizing: border-box;
+    }
+    .beef-menu{
+        float:left;
+        width:32%;
+        box-sizing: border-box;
+    }
+    .sushi-menu{
+        float:left;
+        width:32%;
+        box-sizing: border-box;
+    }
+}
+@media(min-width:768px) and(max-width:991px){
+    .chicken-menu{
+        float:left;
+        width:48%;
+        box-sizing: border-box;
+    }
+    .beef-menu{
+        float:left;
+        width:48%;
+        box-sizing: border-box;
+    }
+    .sushi-menu{
+        float:left;
+        width:48%;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:767px){
+    .chicken-menu{
+        float:none;
+        width:100%;
+    }
+    .beef-menu{
+        float:none;
+        width:100%;
+    }
+    .sushi-menu{
+        float:none;
+        width:100%;
+    }
+}
